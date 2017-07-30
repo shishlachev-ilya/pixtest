@@ -1,0 +1,31 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  .main {
+    overflow-x: hidden; }
+  .container {
+    width: 750px; }
+  .title__item {
+    font-size: 2.525em; }
+  .sliderItem {
+    text-align: center;
+    margin-left: 0;
+    padding-top: 120px;
+    background-position: center top; }
+    .sliderItem__header, .sliderItem__text {
+      padding-left: 100px;
+      padding-right: 100px; }
+  .section_1 {
+    padding-top: 30px;
+    padding-bottom: 150px;
+    background: #5fc18b; }
+  .sectionPar {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px; }
+  .section_2 {
+    padding-top: 30px;
+    background: #44a36f; }
+    .section_2:before, .section_2:after {
+      top: -99%; }
+    .section_2 .sectionHeader, .section_2 .sectionPar, .section_2 .sectionDownload {
+      padding-left: 0;
+      text-align: center; } }

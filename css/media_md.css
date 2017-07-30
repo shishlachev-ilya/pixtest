@@ -1,0 +1,14 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .main {
+    overflow-x: hidden; }
+  .container {
+    width: 970px; }
+  .section_1 {
+    background-position: left 16% top 86px;
+    padding-bottom: 150px; }
+  .section_2 {
+    background-position: top 50px left -80px; }
+    .section_2:before, .section_2:after {
+      top: -97%; }
+    .section_2 .sectionHeader, .section_2 .sectionPar, .section_2 .sectionDownload {
+      padding-left: 450px; } }
